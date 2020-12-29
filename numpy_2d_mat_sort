@@ -1,0 +1,5 @@
+import numpy as np
+
+a= np.array([[4,0,1],[5,2,7],[3,2,1]])
+a = sorted(a, key = lambda a_entry: a_entry[0])
+a
